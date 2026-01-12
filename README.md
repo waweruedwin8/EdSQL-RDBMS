@@ -29,7 +29,7 @@ It features a **Hybrid Architecture** comprising three distinct interfaces that 
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 Pesapal Staff Directory (Web Application)
 <p align="center">
   <img src="/EdSQL_db/screenshots/PesaPalDirectory.png" alt="Pesapal Staff Directory - Main View" width="800"/>
