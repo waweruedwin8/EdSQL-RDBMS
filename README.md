@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/EdSQL_db/screenshots/EdSQL.png" alt="EdSQL Logo" width="851" height="315"/>
+  <img src="/EdSQL_db/screenshots/EdSQL.png" alt="EdSQL Logo" width="900" height="300"/>
 </p>
 <h1 align="center">EdSQL: Enterprise RDBMS & Manager</h1>
 <p align="center">
