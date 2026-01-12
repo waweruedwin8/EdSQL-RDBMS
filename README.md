@@ -17,7 +17,7 @@
 </p>
 ---
 
-## 📖 Overview
+## Overview
 
 EdSQL is a fully functional database engine built from first principles. Unlike a simple wrapper around SQLite, EdSQL implements its own storage engine, query parser, permission system, and constraint enforcement.
 
@@ -29,7 +29,7 @@ It features a **Hybrid Architecture** comprising three distinct interfaces that 
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 Pesapal Staff Directory (Web Application)
 <p align="center">
   <img src="/EdSQL_db/screenshots/PesaPalDirectory.png" alt="Pesapal Staff Directory - Main View" width="800"/>
@@ -50,7 +50,7 @@ Swagger API Documentation
 </p>
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 This project goes beyond the basic requirements to demonstrate readiness for enterprise environments.
 
@@ -375,9 +375,9 @@ python tests.py
 
 ---
 
-## ⚠️ Architectural Decisions & Trade-offs
+## Architectural Decisions & Trade-offs
 
-In software engineering, there are no perfect solutions, only trade-offs.
+I love listing to this a software engineering podcast " The Pragmatic Programmer" and one piece whose advice really stuck in my head was that , "there are no perfect solutions, only trade-offs this is always the bridge between over Engineering and Simplistic but Efficient applications the later is very Effective in rapid prototyping.
 
 ### 1. Storage: JSON vs. Binary
 
@@ -401,7 +401,7 @@ In software engineering, there are no perfect solutions, only trade-offs.
 
 ---
 
-## 📚 What I Learned
+##  What I Learned
 
 This challenge pushed me far beyond tutorial-level understanding:
 
@@ -438,11 +438,11 @@ I deliberately chose **not** to implement:
 - **Binary storage format:** JSON observability was more valuable for debugging
 - **ACID transactions:** Would require WAL implementation (future work)
 
-These are conscious trade-offs, not oversights. I prioritized building a **working, testable system** over theoretical perfection.
+In this projects Scenario I prioritized building a **working, testable system** over theoretical perfection.
 
 ---
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 If I continue developing EdSQL, I would add:
 
@@ -457,7 +457,7 @@ If I continue developing EdSQL, I would add:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 EdSQL-RDBMS/
@@ -470,7 +470,7 @@ EdSQL-RDBMS/
     ├── db.py                    # Core database engine (5.0 Enterprise)
     ├── tests.py                 # Automated compliance test suite
     ├── requirements.txt         # Project & Python dependencies
-    ├── demo_script.sql          # Complete feature demo SQL Script to test the EdSQL DB Engine (with comments )
+    ├── tests.sql          # Complete feature demo SQL Script to test the EdSQL DB Engine (with comments )
     ├── templates/
     │   └── employee_directory.html  # Pesapal Staff Directory UI
     ├── screenshots/                 # UI screenshots for documentation
@@ -488,7 +488,7 @@ EdSQL-RDBMS/
 
 ---
 
-## 🧪 Testing the Engine
+##  Testing the Engine
 
 ### Manual Testing Checklist
 
@@ -518,7 +518,7 @@ EdSQL-RDBMS/
 
 ---
 
-## 🏆 Why This Project Stands Out
+##  Why This Project Stands Out
 
 **1. It's Not a Tutorial Clone**
 - Most junior submissions will wrap SQLite or PostgreSQL
@@ -543,10 +543,10 @@ EdSQL-RDBMS/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Edwin Waweru**  
-A pragmatic developer passionate about understanding systems from first principles. This challenge taught me more about database internals in one week than I learned in months of tutorials.
+Im a pragmatic developer passionate about understanding systems from first principles. This challenge taught me more about database internals in one week than I learned in months of tutorials.
 
 **GitHub:** [waweruedwin8](https://github.com/waweruedwin8)  
 **Email:** [waweruedwin8@gmail.com](mailto:waweruedwin8@gmail.com?subject=EdSQL%20RDBMS%20Project)  
@@ -554,13 +554,13 @@ A pragmatic developer passionate about understanding systems from first principl
 
 ---
 
-## 📄 License
+##  License
 
 MIT License. Open source and free to use.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Pesapal** for designing a challenge that prioritizes learning over credentials
 - **The Python Community** for excellent documentation
