@@ -49,6 +49,7 @@ Swagger API Documentation
   <em>Auto-generated API docs - Try endpoints directly from the browser</em>
 </p>
 ---
+
 ## 🚀 Key Features
 
 This project goes beyond the basic requirements to demonstrate readiness for enterprise environments.
