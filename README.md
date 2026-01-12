@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/EdSQL.png" alt="EdSQL Logo" width="120" height="120"/>
+  <img src="/EdSQL_db/screenshots/EdSQL.png" alt="EdSQL Logo" width="120" height="120"/>
 </p>
 <h1 align="center">EdSQL: Enterprise RDBMS & Manager</h1>
 <p align="center">
@@ -32,19 +32,19 @@ It features a **Hybrid Architecture** comprising three distinct interfaces that 
 📸 Screenshots
 Pesapal Staff Directory (Web Application)
 <p align="center">
-  <img src="screenshots/PesaPalDirectory.png" alt="Pesapal Staff Directory - Main View" width="800"/>
+  <img src="/EdSQL_db/screenshots/PesaPalDirectory.png" alt="Pesapal Staff Directory - Main View" width="800"/>
   <br/>
   <em>Main Directory View - Real-time search, employee profiles, and CRUD operations</em>
 </p>
 Interactive CLI
 <p align="center">
-  <img src="screenshots/EdSQL SHELL.png" alt="EdSQL CLI Interface" width="800"/>
+  <img src="/EdSQL_db/screenshots/EdSQL SHELL.png" alt="EdSQL CLI Interface" width="800"/>
   <br/>
   <em>CLI Shell - Authentication, SQL queries, and JOIN operations</em>
 </p>
 Swagger API Documentation
 <p align="center">
-  <img src="screenshots/SwaggerAPI_EdSQL.png" alt="FastAPI Swagger Documentation" width="800"/>
+  <img src="/EdSQL_db/screenshots/SwaggerAPI_EdSQL.png" alt="FastAPI Swagger Documentation" width="800"/>
   <br/>
   <em>Auto-generated API docs - Try endpoints directly from the browser</em>
 </p>
