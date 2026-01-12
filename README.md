@@ -16,6 +16,7 @@
   <a href="#-screenshots">Screenshots</a>
 </p>
 
+
 ---
 
 ## Overview
@@ -31,6 +32,7 @@ It features a **Hybrid Architecture** comprising three distinct interfaces that 
 ---
 
 ##  Screenshots
+
 Pesapal Staff Directory (Web Application)
 <p align="center">
   <img src="/EdSQL_db/screenshots/PesaPalDirectory.png" alt="Pesapal Staff Directory - Main View" width="800"/>
