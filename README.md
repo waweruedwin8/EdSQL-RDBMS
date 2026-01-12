@@ -1,7 +1,6 @@
 <p align="center">
   <img src="/EdSQL_db/screenshots/EdSQL.png" alt="EdSQL Logo" width="900" height="300"/>
 </p>
----
 <h1 align="center">EdSQL: Enterprise RDBMS & Manager</h1>
 <p align="center">
   <strong>A from-scratch, secure, multi-user Relational Database Management System (RDBMS) with Employee Directory Application.</strong>
@@ -10,11 +9,11 @@
   <em>Built for the Pesapal Junior Dev Challenge '26.</em>
 </p>
 <p align="center">
-  <a href="##-overview">Overview</a> •
-  <a href="##-key-features">Features</a> •
-  <a href="##-installation--setup">Installation</a> •
-  <a href="##-usage-guide-running-the-system">Usage</a> •
-  <a href="##-screenshots">Screenshots</a>
+  <a href="#overview">Overview</a> •
+  <a href="#key-features">Features</a> •
+  <a href="#installation--setup">Installation</a> •
+  <a href="#usage-guide-running-the-system">Usage</a> •
+  <a href="#screenshots">Screenshots</a>
 </p>
 
 
