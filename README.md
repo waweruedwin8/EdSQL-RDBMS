@@ -85,7 +85,7 @@ A specialized HR management system demonstrating the RDBMS in action:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 I chose a stack that prioritizes development velocity and code clarity over distributed system complexity.
 
@@ -97,7 +97,7 @@ I chose a stack that prioritizes development velocity and code clarity over dist
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🎮 Usage Guide: Running the System
+##  Usage Guide: Running the System
 
 EdSQL offers three ways to interact with your data.
 
@@ -154,9 +154,9 @@ Open your browser to http://127.0.0.1:8000/directory
 
 **Features to Try:**
 - **Add New Employee:** Fill out the form on the left and click "Add Employee"
-- **Update Profile:** Click the edit icon (✏️) on any employee to modify their details
-- **Real-time Search:** Use the search bar to filter employees instantly
-- **Terminate Employee:** Click the delete icon (🗑️) to remove an employee
+- **Update Profile:** Click the edit icon ✒️ on any employee to modify their details
+- **Real-time Search:** Use the search bar 🔎 to filter employees instantly
+- **Terminate Employee:** Click the delete icon 🗑️ to remove an employee
 
 **Technical Highlights:**
 - All data persists to `test_env/company_db/employees.json`
@@ -323,14 +323,14 @@ python tests.py
 ```
 
 **What Gets Tested:**
-1. ✅ User authentication (valid/invalid credentials)
-2. ✅ Database creation and switching
-3. ✅ Schema enforcement (type validation)
-4. ✅ CRUD operations (Insert, Update, Delete)
-5. ✅ **Foreign Key Constraints** (critical security test)
-6. ✅ Primary Key uniqueness
-7. ✅ Indexing performance
-8. ✅ Join algorithms (INNER, LEFT, RIGHT, CROSS)
+1.  User authentication (valid/invalid credentials)
+2.  Database creation and switching
+3.  Schema enforcement (type validation)
+4.  CRUD operations (Insert, Update, Delete)
+5.  **Foreign Key Constraints** (critical security test)
+6.  Primary Key uniqueness
+7.  Indexing performance
+8.  Join algorithms (INNER, LEFT, RIGHT, CROSS)
 
 **Expected Output:**
 ```
@@ -377,7 +377,7 @@ python tests.py
 
 ## Architectural Decisions & Trade-offs
 
-I love listing to this a software engineering podcast " The Pragmatic Programmer" and one piece whose advice really stuck in my head was that , "there are no perfect solutions, only trade-offs this is always the bridge between over Engineering and Simplistic but Efficient applications the later is very Effective in rapid prototyping.
+I love listening to this software engineering podcast namely " The Pragmatic Programmer" and one piece of advice that really stuck in my head was that "there are no perfect solutions, only trade-offs this is always the bridge between over Engineering and Simplistic but Efficient applications" in my opinion the latter is far more Effective when it comes to rapid prototyping.
 
 ### 1. Storage: JSON vs. Binary
 
@@ -430,7 +430,7 @@ This challenge pushed me far beyond tutorial-level understanding:
   - Foreign key constraint validation
   - Multi-database folder structure management
 
-### Honesty About Limitations
+### Limitations
 
 I deliberately chose **not** to implement:
 - **B-Tree indexing:** Would take 2+ days to implement correctly
@@ -444,7 +444,7 @@ In this projects Scenario I prioritized building a **working, testable system** 
 
 ## Future Enhancements
 
-If I continue developing EdSQL, I would add:
+In Future Iterations of developing EdSQL, I will add:
 
 1. **Write-Ahead Logging (WAL):** For ACID compliance and crash recovery
 2. **File Locking:** Use `fcntl` (Unix) or `msvcrt` (Windows) for concurrent writes
@@ -470,7 +470,7 @@ EdSQL-RDBMS/
     ├── db.py                    # Core database engine (5.0 Enterprise)
     ├── tests.py                 # Automated compliance test suite
     ├── requirements.txt         # Project & Python dependencies
-    ├── tests.sql          # Complete feature demo SQL Script to test the EdSQL DB Engine (with comments )
+    ├── tests.sql                # Complete feature demo SQL Script to test the EdSQL DB Engine (with comments )
     ├── templates/
     │   └── employee_directory.html  # Pesapal Staff Directory UI
     ├── screenshots/                 # UI screenshots for documentation
@@ -485,8 +485,6 @@ EdSQL-RDBMS/
         │   └── employees.json
         └── default_db/          # Default database for CLI
 ```
-
----
 
 ##  Testing the Engine
 
