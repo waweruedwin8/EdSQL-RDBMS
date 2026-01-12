@@ -15,6 +15,7 @@
   <a href="#-usage-guide-running-the-system">Usage</a> •
   <a href="#-screenshots">Screenshots</a>
 </p>
+
 ---
 
 ## Overview
@@ -48,6 +49,7 @@ Swagger API Documentation
   <br/>
   <em>Auto-generated API docs - Try endpoints directly from the browser</em>
 </p>
+
 ---
 
 ##  Key Features
@@ -82,6 +84,7 @@ A specialized HR management system demonstrating the RDBMS in action:
 - **Rich Data Model:** Name, Role, Salary, Contact, Address, Experience, Tenure
 - **Modern UI:** Tailwind CSS with glassmorphism design aesthetic
 - **Full CRUD:** Create employees, update profiles, and manage terminations
+
 
 ---
 
@@ -131,6 +134,7 @@ All required libraries are listed in `requirements.txt`.
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ---
 
