@@ -21,7 +21,7 @@ templates = Jinja2Templates(directory="templates")
 db.create_database("company_db")
 db.use_database("company_db")
 
-# Expanded Schema: Now includes contact, address, experience, tenure
+# Expanded Schema: includes contact, address, experience, tenure
 db.create_table(
     "employees", 
     ["id", "name", "role", "salary", "contact", "address", "experience", "tenure"], 
