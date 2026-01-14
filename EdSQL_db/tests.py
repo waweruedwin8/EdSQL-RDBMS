@@ -13,10 +13,8 @@ def run_tests():
     db = Database(root_folder="test_env")
     print("✅ [SYSTEM] Storage Environment Initialized.")
 
-    # =================================================================
     #  TEST SUITE 1: USER AUTHENTICATION & MANAGEMENT
     #  Requirement: CREATE/DROP USER, Auth Login
-    # =================================================================
     print("\n--- TEST SUITE 1: AUTHENTICATION ---")
     
     # 1.1 Create User
@@ -40,10 +38,10 @@ def run_tests():
     print("   [PASS] DROP USER command working.")
 
 
-    # =================================================================
+  
     #  TEST SUITE 2: DATABASE MANAGEMENT
     #  Requirement: CREATE/DROP DB, SHOW DBs, USE
-    # =================================================================
+    
     print("\n--- TEST SUITE 2: DB MANAGEMENT ---")
     
     # 2.1 Create & Show
@@ -66,10 +64,9 @@ def run_tests():
     print("   [PASS] USE [db_name] working.")
 
 
-    # =================================================================
+   
     #  TEST SUITE 3: SCHEMA & TYPES
     #  Requirement: CREATE TABLE [col:type], DROP TABLE
-    # =================================================================
     print("\n--- TEST SUITE 3: SCHEMA & TYPES ---")
     
     # 3.1 Create Table with Types (Departments)
@@ -105,10 +102,8 @@ def run_tests():
         print("   [PASS] Data Type Validation working (Rejected bad type).")
 
 
-    # =================================================================
     #  TEST SUITE 4: CRUD OPERATIONS
     #  Requirement: INSERT, UPDATE, DELETE, SELECT
-    # =================================================================
     print("\n--- TEST SUITE 4: CRUD OPERATIONS ---")
     
     # 4.1 INSERT (Populate Departments)
@@ -137,10 +132,8 @@ def run_tests():
     print("   [PASS] DELETE FROM [pk] working.")
 
 
-    # =================================================================
     #  TEST SUITE 5: ADVANCED NORMALIZATION
     #  Requirement: Foreign Key Constraints
-    # =================================================================
     print("\n--- TEST SUITE 5: NORMALIZATION (FK) ---")
     
     try:
@@ -151,10 +144,8 @@ def run_tests():
         print(f"   [PASS] FK Constraint Enforced: {e}")
 
 
-    # =================================================================
     #  TEST SUITE 6: JOINS
     #  Requirement: INNER, LEFT, RIGHT, CROSS
-    # =================================================================
     print("\n--- TEST SUITE 6: JOINS ---")
     
     # Setup for Joins:
@@ -181,10 +172,8 @@ def run_tests():
     print("   [PASS] CROSS JOIN: Cartesian product correct.")
 
     
-    # =================================================================
     #  TEST SUITE 7: DESTRUCTIVE CLEANUP
     #  Requirement: DROP TABLE
-    # =================================================================
     print("\n--- TEST SUITE 7: CLEANUP ---")
     
     db.drop_table("employees")
